@@ -1,0 +1,17 @@
+export const holidays = [
+  new Date(2019, 0, 1),
+  new Date(2019, 0, 2),
+  new Date(2019, 1, 8),
+  new Date(2019, 3, 21),
+  new Date(2019, 3, 22),
+  new Date(2019, 3, 27),
+  new Date(2019, 4, 1),
+  new Date(2019, 4, 2),
+  new Date(2019, 5, 9),
+  new Date(2019, 5, 25),
+  new Date(2019, 7, 15),
+  new Date(2019, 9, 31),
+  new Date(2019, 10, 1),
+  new Date(2019, 11, 25),
+  new Date(2019, 11, 26),
+]

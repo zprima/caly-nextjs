@@ -1,0 +1,23 @@
+.month{
+  margin-top: 10px;
+}
+.month .title{
+  font-weight: bold;
+  border-top: 1px solid black;
+}
+
+.day{
+  width: 20px;
+}
+
+.red{
+  background-color: red;
+}
+
+.green{
+  background-color: green;
+}
+
+.blue{
+  background-color: blue;
+}
