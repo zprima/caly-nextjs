@@ -34,7 +34,25 @@ const Index = () => (
       </Col>
 
       <Col>
-        Vacations left: {vacationsLeft()}
+        <div>Vacations left: {vacationsLeft()}</div>
+        <br></br>
+        <table>
+          <tbody>
+            <tr>
+              <td>Weekends</td>
+              <td><div className="blue">&nbsp;&nbsp;&nbsp;</div></td>
+            </tr>
+            <tr>
+              <td>Holidays</td>
+              <td><div className="green">&nbsp;&nbsp;&nbsp;</div></td>
+            </tr>
+            <tr>
+              <td>Vacations</td>
+              <td><div className="red">&nbsp;&nbsp;&nbsp;</div></td>
+            </tr>
+          </tbody>
+        </table>
+
       </Col>
 
     </Row>
