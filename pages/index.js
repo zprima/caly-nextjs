@@ -5,6 +5,7 @@ import Calendar from '../components/Calendar.js'
 import { holidays } from '../consts/holidays.js';
 import { vacations, vacationsLeft } from '../consts/vacations.js';
 import moment from 'moment';
+import Link from 'next/link'
 
 const Index = () => (
   <App>
@@ -52,6 +53,12 @@ const Index = () => (
             </tr>
           </tbody>
         </table>
+
+        <br></br>
+
+        <Link href="/flow">
+          <a>Full calendar view</a>
+        </Link>
 
       </Col>
 
