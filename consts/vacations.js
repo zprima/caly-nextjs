@@ -25,7 +25,6 @@ export const vacations = [
   new Date(2019, 11, 31),
 ]
 
-console.log("************")
-// cca. 20 + 2 from prev year
-console.log("VACATIONS LEFT ->", 22 - vacations.length)
-console.log("************")
+export function vacationsLeft() {
+  return 22 - vacations.length
+}
