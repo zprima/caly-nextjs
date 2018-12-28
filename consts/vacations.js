@@ -1,6 +1,6 @@
 export const vacations = [
-  new Date(2019, 0, 3),
-  new Date(2019, 0, 4),
+  new Date(2019, 0, 3), //From prev year
+  new Date(2019, 0, 4), //From prev year
 
   new Date(2019, 1, 7),
 
@@ -26,5 +26,6 @@ export const vacations = [
 ]
 
 console.log("************")
+// cca. 20 + 2 from prev year
 console.log("VACATIONS LEFT ->", 22 - vacations.length)
 console.log("************")

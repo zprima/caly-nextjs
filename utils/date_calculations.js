@@ -37,6 +37,23 @@ export function getWeeksInMonth(month, year) {
   return weeks;
 }
 
+export function findDateInArray(date, ar) {
+  return ar.find((item) => {
+    if (item.getTime() == date.getTime()) {
+      return true
+    } else {
+      return false
+    }
+  })
+}
+
+export function isWeekend(date) {
+  if (date.getDay() == 6 || date.getDay() == 0) {
+    return true
+  } else {
+    return false
+  }
+}
 
 function addDays(date, days) {
   var result = new Date(date);

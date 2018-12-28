@@ -5,7 +5,6 @@ import Day from './Day.js'
 const Week = ({ month, week }) => {
 
   return (
-
     <React.Fragment>
       {
         week.days.map((date, di) => {
@@ -15,7 +14,6 @@ const Week = ({ month, week }) => {
         })
       }
     </React.Fragment>
-
   );
 }
 
