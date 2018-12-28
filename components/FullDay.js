@@ -7,7 +7,7 @@ import { findDateInArray, isWeekend } from '../utils/date_calculations.js';
 const FullDay = ({ date }) => {
 
   const painDay = () => {
-    console.log(date, date.getUTCFullYear())
+    // console.log(date, date.getUTCFullYear())
     if (date.getFullYear() == 2019) {
 
       var cName = ''
