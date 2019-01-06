@@ -9,18 +9,24 @@
 .week-no{
   background-color: lightgray;
 }
+
 .day{
   width: 20px;
+  border: 1px solid transparent;
 }
 
-.red{
-  background-color: red;
+.past{
+  border: 1px solid red;
 }
 
-.green{
-  background-color: green;
+.vacation{
+  background-color: lightgreen;
 }
 
-.blue{
-  background-color: blue;
+.holiday{
+  background-color: lightgrey;
+}
+
+.weekend{
+  background-color: lightskyblue;
 }

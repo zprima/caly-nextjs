@@ -56,7 +56,7 @@ const Index = () => (
 
         <br></br>
 
-        <Link href="/flow">
+        <Link href="/full">
           <a>Full calendar view</a>
         </Link>
 

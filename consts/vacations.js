@@ -4,6 +4,8 @@ export const vacations = [
 
   new Date(2019, 1, 7),
 
+  new Date(2019, 2, 22),
+
   new Date(2019, 3, 29),
   new Date(2019, 3, 30),
   new Date(2019, 4, 3),
@@ -12,6 +14,9 @@ export const vacations = [
   new Date(2019, 5, 27),
   new Date(2019, 5, 28),
 
+  new Date(2019, 7, 12),
+  new Date(2019, 7, 13),
+  new Date(2019, 7, 14),
   new Date(2019, 7, 16),
 
   new Date(2019, 9, 30),

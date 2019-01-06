@@ -3,7 +3,7 @@ import Col from '../components/Col.js'
 import Row from '../components/Row.js'
 import FullCalendar from '../components/FullCalendar.js'
 
-const Flow = () => (
+const Full = () => (
   <App>
     <Row>
       <Col>
@@ -16,4 +16,4 @@ const Flow = () => (
   </App>
 )
 
-export default Flow
+export default Full

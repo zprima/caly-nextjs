@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import moment from 'moment';
 import { holidays } from '../consts/holidays.js';
 import { vacations } from '../consts/vacations.js';
-import { findDateInArray, isWeekend } from '../utils/date_calculations.js';
+import { findDateInArray, isWeekend, isInPast } from '../utils/date_calculations.js';
 
 const FullDay = ({ date }) => {
 
@@ -12,16 +12,20 @@ const FullDay = ({ date }) => {
 
       var cName = ''
       if (isWeekend(date)) {
-        cName = 'blue'
+        cName = 'weekend'
       }
       else if (findDateInArray(date, holidays)) {
-        cName = 'green'
+        cName = 'holiday'
       }
       else if (findDateInArray(date, vacations)) {
-        cName = 'red';
+        cName = 'vacation';
       }
 
-      return <div className={"text-center " + cName}>{moment(date).format("MM.DD")}</div>
+      if (isInPast(date)) {
+        cName += ' past'
+      }
+
+      return <div className={"text-center " + cName}>{moment(date).format("DD.MM")}</div>
     } else {
       return <div></div>
     }

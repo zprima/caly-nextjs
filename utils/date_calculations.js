@@ -109,6 +109,16 @@ export function isWeekend(date) {
   }
 }
 
+var cd = new Date();
+
+export function isInPast(date) {
+  if (date < cd) {
+    return true
+  } else {
+    return false
+  }
+}
+
 function isMonday(date) {
   if (date.getDay() == 1) {
     return true
