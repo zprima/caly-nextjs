@@ -41,15 +41,15 @@ const Index = () => (
           <tbody>
             <tr>
               <td>Weekends</td>
-              <td><div className="blue">&nbsp;&nbsp;&nbsp;</div></td>
+              <td><div className="weekend">&nbsp;&nbsp;&nbsp;</div></td>
             </tr>
             <tr>
               <td>Holidays</td>
-              <td><div className="green">&nbsp;&nbsp;&nbsp;</div></td>
+              <td><div className="holiday">&nbsp;&nbsp;&nbsp;</div></td>
             </tr>
             <tr>
               <td>Vacations</td>
-              <td><div className="red">&nbsp;&nbsp;&nbsp;</div></td>
+              <td><div className="vacation">&nbsp;&nbsp;&nbsp;</div></td>
             </tr>
           </tbody>
         </table>
