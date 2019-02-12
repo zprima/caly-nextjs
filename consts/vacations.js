@@ -4,6 +4,7 @@ export const vacations = [
 
   new Date(2019, 1, 7),
 
+  new Date(2019, 2, 21),
   new Date(2019, 2, 22),
 
   new Date(2019, 3, 29),
@@ -30,6 +31,9 @@ export const vacations = [
   new Date(2019, 11, 31),
 ]
 
+const vacationsPerYear = 21;
+const pastVacations = 14;
+
 export function vacationsLeft() {
-  return 22 - vacations.length
+  return (vacationsPerYear + pastVacations) - vacations.length
 }
