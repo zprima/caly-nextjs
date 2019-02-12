@@ -32,7 +32,7 @@ export const vacations = [
 ]
 
 const vacationsPerYear = 21;
-const pastVacations = 14;
+const pastVacations = 11;
 
 export function vacationsLeft() {
   return (vacationsPerYear + pastVacations) - vacations.length
